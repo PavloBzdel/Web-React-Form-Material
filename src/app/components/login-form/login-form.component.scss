@@ -1,0 +1,40 @@
+.react-form{
+  background-color: rgb(114, 114, 114);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .react-form-tittle{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 25px 0;
+  }
+  .react-form-button{
+    text-align: center;
+  }
+
+  .example-container .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+
+  .example-right-align {
+    text-align: right;
+  }
+
+  .open-me{
+    margin: 15px 0;
+  }
+  input.example-right-align::-webkit-outer-spin-button,
+  input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+
+  input.example-right-align {
+    -moz-appearance: textfield;
+  }
+  ::ng-deep .form-input{
+    color: rgb(0, 140, 255);
+  }
+}
